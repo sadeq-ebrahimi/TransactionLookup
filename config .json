@@ -1,0 +1,20 @@
+{
+  "oracle": {
+    "username": "",
+    "password": "",
+    "tns_alias": "orapci",
+    "tns_admin": ".",
+    "query_batch_size": 400
+  },
+  "orchestra": {
+    "base_url": "https://",
+    "api_key": "",
+    "auth_header_name": "Auth-Schema",
+    "auth_header_value": "S2S",
+    "api_key_header_name": "Api-Key",
+    "content_type": "application/json;charset=UTF8",
+    "timeout_seconds": 30,
+    "max_retries": 2,
+    "delay_between_requests_seconds": 0.2
+  }
+}
