@@ -1,0 +1,20 @@
+{
+  "oracle": {
+    "username": "YOUR_ORACLE_USERNAME",
+    "password": "YOUR_ORACLE_PASSWORD",
+    "tns_alias": "oraboh",
+    "tns_admin": ".",
+    "query_batch_size": 400
+  },
+  "orchestra": {
+    "base_url": "https://apigw-fabrick.dmz.pro/api/fabrick/orchestra/v1.0/acceptance/merchants",
+    "api_key": "YOUR_API_KEY",
+    "auth_header_name": "Auth-Schema",
+    "auth_header_value": "S2S",
+    "api_key_header_name": "Api-Key",
+    "content_type": "application/json;charset=UTF8",
+    "timeout_seconds": 30,
+    "max_retries": 2,
+    "delay_between_requests_seconds": 0.2
+  }
+}
